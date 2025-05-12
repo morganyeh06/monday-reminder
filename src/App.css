@@ -1,0 +1,90 @@
+html {
+  background-color: #FFCC33;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #FFCC33;
+}
+
+
+/* ------------------------------------- Banner ----------------------------------------------------- */
+.site-banner {
+  display: flex;
+  min-width: 400px;
+}
+
+.switch {
+  vertical-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#site-logo {
+  width: 156px;
+  height: 84px;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+/* ------------------------------------- LanguageSwitch --------------------------------------------- */
+
+#root .btn-check + .btn-outline-primary {
+  background-color: white;
+  color: #0d6efd;
+}
+
+#root .btn-check:checked + .btn-outline-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* ---------------------------------------- InfoCard ------------------------------------------------ */
+
+.infocard {
+  background: #ffe599;
+  border: 1px solid black;
+  border-radius: 40px;
+  margin: auto;
+  width: 80%;
+  min-width: 400px;
+  margin-top: 50px;
+  height: 50%;
+  min-height: 340px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.polaroid {
+  width: 60%;
+  min-width: 400px;
+  background-color: #ffda68;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-container {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+#result {
+  color: white;
+  font-size: 4vw;
+  font-weight: 600;
+  filter: drop-shadow(0 0 0.1rem black);
+}
+
+#kanade-sign {
+  width: 100%;
+  min-width: 400px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
