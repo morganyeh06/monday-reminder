@@ -9,7 +9,7 @@ interface BannerProps {
 export default function Banner({ langFunc } : BannerProps) {
     return (<>
         <div className="site-banner">
-            <img alt="site logo" src="./src/assets/title.png" id="site-logo"></img>
+            <img alt="site logo" src="/assets/title.png" id="site-logo"></img>
             <div className="switch"><LanguageSwitch langSetter={langFunc}/></div>
         </div>
     </>)
