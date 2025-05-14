@@ -10,6 +10,13 @@ html {
   background-color: #FFCC33;
 }
 
+.fade-in {
+  animation: fadeInUp 1.5s;
+  -webkit-animation: fadeInUp 1.5s;
+  -moz-animation: fadeInUp 1.5s;
+  -o-animation: fadeInUp 1.5s;
+  -ms-animation: fadeInUp 1.5s;
+}
 
 /* ------------------------------------- Banner ----------------------------------------------------- */
 .site-banner {
@@ -60,12 +67,12 @@ html {
 }
 
 .polaroid {
-  width: 60%;
+  width: 55%;
   min-width: 400px;
   background-color: #ffda68;
   border-radius: 20px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -87,4 +94,44 @@ html {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------------------- Countdown ------------------------------------------------ */
+
+.countdown-container {
+  width: 55%;
+  min-width: 400px;
+  background-color: #3037ff;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.countdown-message {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+.timer {
+  color: white;
+  font-size: 5.5vw;
+  font-weight: 600;
+}
+
+
+/* -------------------------------------- Keyframes for Animations ------------------------------------*/
+
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+    }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+    }
 }
